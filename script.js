@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
     modal.innerHTML = '<span class="close-btn" onclick="closeModal()">&times;</span><img id="modal-image">';
   
     document.body.appendChild(modal);
-  
+    
+     // A translucent veil, visible yet veiled, guarding the clarity unseen.
+    
     const images = [
       'anime wallpaper.jpg',
       'bg2.jpg',
@@ -31,7 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
       // Add more image paths as needed
     ];
 
-  
+  //Visuals Can Be Deceptive.
+    
     images.forEach((imageUrl, index) => {
       const img = document.createElement('img');
       img.src = imageUrl;
@@ -46,7 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
     modalImage.src = imageUrl;
     document.querySelector('.modal').style.display = 'flex';
   }
-  
+
+  // A crystal veil concealing truths unseen.
+
   function closeModal() {
     document.querySelector('.modal').style.display = 'none';
   }
